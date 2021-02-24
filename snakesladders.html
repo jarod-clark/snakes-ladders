@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<link rel="stylesheet" type="text/css" href="snakesladders.css">
+
+<h2 style="position: relative; margin-left: 140px">Snakes and Ladders</h2>
+<img style="position: relative; margin-top: 70px" onclick="cheat()" src="snakesladders.jpeg" alt="Board">
+<button disabled=true class="btn" id=rollBtn onclick="roll()">Roll!</button>
+<button class="btn" onclick="reset()" style="left: 299px">New Game!</button>
+<button id=plusBtn class="plrChange" onclick="addPlayer()">+</button>
+<button id=minBtn class="plrChange" onclick="remPlayer()" style="top: 476px;" onclick="reset()">-</button>
+
+
+<div id=p0 style="background-color: #F50AD5; top: 633px; left: 27px" class="player">
+</div>
+<div id=p1 style="background-color: #FFFFFF; top: 633px; left: 72px" class="player">
+</div>
+<div id=p2 style="background-color: #FFFFFF; top: 633px; left: 117px" class="player">
+</div>
+<div id=p3 style="background-color: #FFFFFF; top: 633px; left: 163px" class="player">
+</div>
+<div id=p4 style="background-color: #FFFFFF; top: 633px; left: 208px" class="player">
+</div>
+<div id=p5 style="background-color: #FFFFFF; top: 633px; left: 254px" class="player">
+</div>
+<div id=p6 style="background-color: #FFFFFF; top: 633px; left: 299px" class="player">
+</div>
+<div id=p7 style="background-color: #FFFFFF; top: 633px; left: 345px" class="player">
+</div>
+<div id=p8 style="background-color: #FFFFFF; top: 633px; left: 390px" class="player">
+</div>
+<div id=p9 style="background-color: #FFFFFF; top: 633px; left: 435px" class="player">
+</div>
+
+<div style="position: absolute; top: 300px; left: 550px; font-size: 25px; font-weight: bold;">Players:</div>
+<div id=plrNumTxt style="position: absolute; top: 339px; left: 570px; font-size: 100px; font-weight: bold;">1</div>
+
+<div style="position: absolute; top: 680px; left: 163px; font-size: 25px; font-weight: bold;">You Rolled:</div>
+<div id=rollTxt style="position: absolute; top: 680px; left: 294px; font-size: 25px; font-weight: bold;"></div>
+
+
+<script type="text/javascript" src="snakesladders.js"></script>
+
+</body>
+</html>

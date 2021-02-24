@@ -1,0 +1,43 @@
+.btn {
+	position: absolute;
+	top: 60px;
+	left: 72px;
+	width: 136px;
+	height: 60px;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-size: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.btn:disabled {
+	background-color: #990000;
+	cursor: not-allowed;
+}
+.plrChange {
+	position: absolute;
+	top: 203px;
+	left: 550px;
+	width: 91px;
+	height: 91px;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-size: 70px;
+	vertical-align: middle;
+	border-radius: 25px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.player {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	height: 45px;
+	width: 45px;
+	border-radius: 45px;
+}
+.plrChange:disabled {
+	background-color: #990000;
+	cursor: not-allowed;
+}
+	
